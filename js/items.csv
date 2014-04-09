@@ -1,0 +1,41 @@
+PART_NUMBER,DESCRIPTION,LONG_DESCRIPTION,US_LIST_PRICE,DISCOUNT_CAT,RANGE_START,RANGE_END
+LIC-PUP0001,Puppies 1 license,Puppies 1 license,$1000,A,"",""
+LIC-PUP0002,Puppies 2 license,Puppies 2 license,$2000,A,"",""
+LIC-PUP0003,Puppies 3 license,Puppies 3 license,$3000,A,"",""
+PUP0001,Puppies 1,Puppies 1,$10000,A,"",""
+PUP0002,Puppies 2,Puppies 2,$10000,A,"",""
+PUP0003,Puppies 3,Puppies 3,$10000,A,"",""
+MOD-TAIL-WAGGY,Waggy Tail,Waggy Tail,$25,A,"",""
+MOD-LOVE-FETCH,Love Fetch,Loves Playing Fetch,5,A,"",""
+MOD-LOVE-FRISBEE,Loves Frisbee,Loves Playing Frisbee,$1,A,"",""
+MOD-LOVE-WATER,Loves Water,Loves Playing in the Water,$50,A,"",""
+ACC-101-5,Leash Red,Leash Red Bulk,$20,B,1,5
+ACC-101-50,Leash Red,Leash Red Bulk,$15,B,6,50
+ACC-101-150,Leash Red,Leash Red Bulk,$10,B,51,150
+ACC-101-500,Leash Red,Leash Red Bulk,$5,B,151,500
+ACC-101-ALL,Leash Red,Leash Red Bulk,$1,B,501,9999999
+ACC-102-5,Leash Blue,Leash Blue Bulk,$20,B,1,5
+ACC-102-50,Leash Blue,Leash Blue Bulk,$15,B,6,50
+ACC-102-150,Leash Blue,Leash Blue Bulk,$10,B,51,150
+ACC-102-500,Leash Blue,Leash Blue Bulk,$5,B,151,500
+ACC-102-ALL,Leash Blue,Leash Blue Bulk,$1,B,501,9999999
+LIC-PUP0001-E,Eval Puppies 1 license,Eval Puppies 1 license,0,A,"",""
+LIC-PUP0002-E,Eval Puppies 2 license,Eval Puppies 2 license,0,A,"",""
+LIC-PUP0003-E,Eval Puppies 3 license,Eval Puppies 3 license,0,A,"",""
+PUP0001-E,Eval Puppies 1,Eval Puppies 1,0,A,"",""
+PUP0002-E,Eval Puppies 2,Eval Puppies 2,0,A,"",""
+PUP0003-E,Eval Puppies 3,Eval Puppies 3,0,A,"",""
+MOD-TAIL-WAGGY-E,Eval Waggy Tail,Eval Waggy Tail,25,A,"",""
+MOD-LOVE-FETCH-E,Eval Love Fetch,Eval Loves Playing Fetch,5,A,"",""
+MOD-LOVE-FRISBEE-E,Eval Loves Frisbee,Eval Loves Playing Frisbee,1,A,"",""
+MOD-LOVE-WATER-E,Eval Loves Water,Eval Loves Playing in the Water,50,A,"",""
+ACC-101-5-E,Eval Leash Red,Eval Leash Red Bulk,20,B,1,5
+ACC-101-50-E,Eval Leash Red,Eval Leash Red Bulk,15,B,6,50
+ACC-101-150-E,Eval Leash Red,Eval Leash Red Bulk,10,B,51,150
+ACC-101-500-E,Eval Leash Red,Eval Leash Red Bulk,5,B,151,500
+ACC-101-ALL-E,Eval Leash Red,Eval Leash Red Bulk,1,B,501,9999999
+ACC-102-5-E,Eval Leash Blue,Eval Leash Blue Bulk,20,B,1,5
+ACC-102-50-E,Eval Leash Blue,Eval Leash Blue Bulk,15,B,6,50
+ACC-102-150-E,Eval Leash Blue,Eval Leash Blue Bulk,10,B,51,150
+ACC-102-500-E,Eval Leash Blue,Eval Leash Blue Bulk,5,B,151,500
+ACC-102-ALL-E,Eval Leash Blue,Eval Leash Blue Bulk,1,B,501,9999999

@@ -1,0 +1,24 @@
+<h1>Current BOM</h1>
+<table class="table table-striped table-bordered table-hover">
+	<thead>
+	  <tr>
+		  <th ng-repeat="header in headers">{{header}}</th>
+		  <th></th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr ng-repeat="sku in current_sku_list">
+	    <td><a href="/#/item/{{sku.PART_NUMBER}}">{{sku.PART_NUMBER}}</a></td>
+	    <td>{{sku.DESCRIPTION}}</td>
+	    <td>{{sku.LONG_DESCRIPTION}}</td>
+	    <td>{{sku.US_LIST_PRICE}}</td>
+	    <td>{{sku.DISCOUNT_CAT}}</td>
+	    <td>{{sku.RANGE_START}}</td>
+	    <td>{{sku.RANGE_END}}</td>
+		<td><input type="button" value="Remove" ng-click="removeItem(sku)" /></td>
+	  </tr>
+	  <tr ng-show="!current_sku_list.length">
+		  <td colspan="8">No items selected</td>
+	  </tr>
+	</tbody>
+</table>

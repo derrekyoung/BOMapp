@@ -1,0 +1,32 @@
+<div ng-controller="skuListController">
+<h1>List of Items</h1>
+<div class="row">
+	<div class="col-xs-6">
+	<form role="form">
+		<input type="text" class="form-control" ng-model="skuFilter" placeholder="Search..."/>
+		<span class="help-block">Search to filter on anything in a SKU.</span>
+	</form>
+	</div>
+</div>
+<table class="table table-striped table-bordered table-hover">
+	<thead>
+	  <tr>
+		  <th ng-repeat="header in headers">{{header}}</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr ng-repeat="sku in sku_list | filter: skuFilter">
+	    <td><a href="/#/item/{{sku.PART_NUMBER}}">{{sku.PART_NUMBER}}</a></td>
+	    <td><a href="/#/item/{{sku.PART_NUMBER}}">{{sku.DESCRIPTION}}</a></td>
+	    <td><a href="/#/item/{{sku.PART_NUMBER}}">{{sku.LONG_DESCRIPTION}}</a></td>
+	    <td>{{sku.US_LIST_PRICE}}</td>
+	    <td>{{sku.DISCOUNT_CAT}}</td>
+	    <td>{{sku.RANGE_START}}</td>
+	    <td>{{sku.RANGE_END}}</td>
+	  </tr>
+	  <tr ng-show="!sku_list.length">
+		  <td colspan="7">No items</td>
+	  </tr>
+	</tbody>
+</table>
+</div>

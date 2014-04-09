@@ -1,0 +1,323 @@
+var data_items = [
+{
+	"PART_NUMBER": "LIC-PUP0001",
+	"DESCRIPTION": "Puppies 1 license",
+	"LONG_DESCRIPTION": "Puppies 1 license",
+	"US_LIST_PRICE": "$1000",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "LIC-PUP0002",
+	"DESCRIPTION": "Puppies 2 license",
+	"LONG_DESCRIPTION": "Puppies 2 license",
+	"US_LIST_PRICE": "$2000",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "LIC-PUP0003",
+	"DESCRIPTION": "Puppies 3 license",
+	"LONG_DESCRIPTION": "Puppies 3 license",
+	"US_LIST_PRICE": "$3000",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "PUP0001",
+	"DESCRIPTION": "Puppies 1",
+	"LONG_DESCRIPTION": "Puppies 1",
+	"US_LIST_PRICE": "$10000",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "PUP0002",
+	"DESCRIPTION": "Puppies 2",
+	"LONG_DESCRIPTION": "Puppies 2",
+	"US_LIST_PRICE": "$10000",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "PUP0003",
+	"DESCRIPTION": "Puppies 3",
+	"LONG_DESCRIPTION": "Puppies 3",
+	"US_LIST_PRICE": "$10000",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-TAIL-WAGGY",
+	"DESCRIPTION": "Waggy Tail",
+	"LONG_DESCRIPTION": "Waggy Tail",
+	"US_LIST_PRICE": "$25",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-LOVE-FETCH",
+	"DESCRIPTION": "Love Fetch",
+	"LONG_DESCRIPTION": "Loves Playing Fetch",
+	"US_LIST_PRICE": "5",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-LOVE-FRISBEE",
+	"DESCRIPTION": "Loves Frisbee",
+	"LONG_DESCRIPTION": "Loves Playing Frisbee",
+	"US_LIST_PRICE": "$1",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-LOVE-WATER",
+	"DESCRIPTION": "Loves Water",
+	"LONG_DESCRIPTION": "Loves Playing in the Water",
+	"US_LIST_PRICE": "$50",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "ACC-101-5",
+	"DESCRIPTION": "Leash Red",
+	"LONG_DESCRIPTION": "Leash Red Bulk",
+	"US_LIST_PRICE": "$20",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 1,
+	"RANGE_END": 5
+}, {
+	"PART_NUMBER": "ACC-101-50",
+	"DESCRIPTION": "Leash Red",
+	"LONG_DESCRIPTION": "Leash Red Bulk",
+	"US_LIST_PRICE": "$15",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 6,
+	"RANGE_END": 50
+}, {
+	"PART_NUMBER": "ACC-101-150",
+	"DESCRIPTION": "Leash Red",
+	"LONG_DESCRIPTION": "Leash Red Bulk",
+	"US_LIST_PRICE": "$10",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 51,
+	"RANGE_END": 150
+}, {
+	"PART_NUMBER": "ACC-101-500",
+	"DESCRIPTION": "Leash Red",
+	"LONG_DESCRIPTION": "Leash Red Bulk",
+	"US_LIST_PRICE": "$5",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 151,
+	"RANGE_END": 500
+}, {
+	"PART_NUMBER": "ACC-101-ALL",
+	"DESCRIPTION": "Leash Red",
+	"LONG_DESCRIPTION": "Leash Red Bulk",
+	"US_LIST_PRICE": "$1",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 501,
+	"RANGE_END": 9999999
+}, {
+	"PART_NUMBER": "ACC-102-5",
+	"DESCRIPTION": "Leash Blue",
+	"LONG_DESCRIPTION": "Leash Blue Bulk",
+	"US_LIST_PRICE": "$20",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 1,
+	"RANGE_END": 5
+}, {
+	"PART_NUMBER": "ACC-102-50",
+	"DESCRIPTION": "Leash Blue",
+	"LONG_DESCRIPTION": "Leash Blue Bulk",
+	"US_LIST_PRICE": "$15",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 6,
+	"RANGE_END": 50
+}, {
+	"PART_NUMBER": "ACC-102-150",
+	"DESCRIPTION": "Leash Blue",
+	"LONG_DESCRIPTION": "Leash Blue Bulk",
+	"US_LIST_PRICE": "$10",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 51,
+	"RANGE_END": 150
+}, {
+	"PART_NUMBER": "ACC-102-500",
+	"DESCRIPTION": "Leash Blue",
+	"LONG_DESCRIPTION": "Leash Blue Bulk",
+	"US_LIST_PRICE": "$5",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 151,
+	"RANGE_END": 500
+}, {
+	"PART_NUMBER": "ACC-102-ALL",
+	"DESCRIPTION": "Leash Blue",
+	"LONG_DESCRIPTION": "Leash Blue Bulk",
+	"US_LIST_PRICE": "$1",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 501,
+	"RANGE_END": 9999999
+}, {
+	"PART_NUMBER": "LIC-PUP0001-E",
+	"DESCRIPTION": "Eval Puppies 1 license",
+	"LONG_DESCRIPTION": "Eval Puppies 1 license",
+	"US_LIST_PRICE": "0",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "LIC-PUP0002-E",
+	"DESCRIPTION": "Eval Puppies 2 license",
+	"LONG_DESCRIPTION": "Eval Puppies 2 license",
+	"US_LIST_PRICE": "0",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "LIC-PUP0003-E",
+	"DESCRIPTION": "Eval Puppies 3 license",
+	"LONG_DESCRIPTION": "Eval Puppies 3 license",
+	"US_LIST_PRICE": "0",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "PUP0001-E",
+	"DESCRIPTION": "Eval Puppies 1",
+	"LONG_DESCRIPTION": "Eval Puppies 1",
+	"US_LIST_PRICE": "0",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "PUP0002-E",
+	"DESCRIPTION": "Eval Puppies 2",
+	"LONG_DESCRIPTION": "Eval Puppies 2",
+	"US_LIST_PRICE": "0",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "PUP0003-E",
+	"DESCRIPTION": "Eval Puppies 3",
+	"LONG_DESCRIPTION": "Eval Puppies 3",
+	"US_LIST_PRICE": "0",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-TAIL-WAGGY-E",
+	"DESCRIPTION": "Eval Waggy Tail",
+	"LONG_DESCRIPTION": "Eval Waggy Tail",
+	"US_LIST_PRICE": "25",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-LOVE-FETCH-E",
+	"DESCRIPTION": "Eval Love Fetch",
+	"LONG_DESCRIPTION": "Eval Loves Playing Fetch",
+	"US_LIST_PRICE": "5",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-LOVE-FRISBEE-E",
+	"DESCRIPTION": "Eval Loves Frisbee",
+	"LONG_DESCRIPTION": "Eval Loves Playing Frisbee",
+	"US_LIST_PRICE": "1",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "MOD-LOVE-WATER-E",
+	"DESCRIPTION": "Eval Loves Water",
+	"LONG_DESCRIPTION": "Eval Loves Playing in the Water",
+	"US_LIST_PRICE": "50",
+	"DISCOUNT_CAT": "A",
+	"RANGE_START": null,
+	"RANGE_END": null
+}, {
+	"PART_NUMBER": "ACC-101-5-E",
+	"DESCRIPTION": "Eval Leash Red",
+	"LONG_DESCRIPTION": "Eval Leash Red Bulk",
+	"US_LIST_PRICE": "20",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 1,
+	"RANGE_END": 5
+}, {
+	"PART_NUMBER": "ACC-101-50-E",
+	"DESCRIPTION": "Eval Leash Red",
+	"LONG_DESCRIPTION": "Eval Leash Red Bulk",
+	"US_LIST_PRICE": "15",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 6,
+	"RANGE_END": 50
+}, {
+	"PART_NUMBER": "ACC-101-150-E",
+	"DESCRIPTION": "Eval Leash Red",
+	"LONG_DESCRIPTION": "Eval Leash Red Bulk",
+	"US_LIST_PRICE": "10",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 51,
+	"RANGE_END": 150
+}, {
+	"PART_NUMBER": "ACC-101-500-E",
+	"DESCRIPTION": "Eval Leash Red",
+	"LONG_DESCRIPTION": "Eval Leash Red Bulk",
+	"US_LIST_PRICE": "5",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 151,
+	"RANGE_END": 500
+}, {
+	"PART_NUMBER": "ACC-101-ALL-E",
+	"DESCRIPTION": "Eval Leash Red",
+	"LONG_DESCRIPTION": "Eval Leash Red Bulk",
+	"US_LIST_PRICE": "1",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 501,
+	"RANGE_END": 9999999
+}, {
+	"PART_NUMBER": "ACC-102-5-E",
+	"DESCRIPTION": "Eval Leash Blue",
+	"LONG_DESCRIPTION": "Eval Leash Blue Bulk",
+	"US_LIST_PRICE": "20",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 1,
+	"RANGE_END": 5
+}, {
+	"PART_NUMBER": "ACC-102-50-E",
+	"DESCRIPTION": "Eval Leash Blue",
+	"LONG_DESCRIPTION": "Eval Leash Blue Bulk",
+	"US_LIST_PRICE": "15",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 6,
+	"RANGE_END": 50
+}, {
+	"PART_NUMBER": "ACC-102-150-E",
+	"DESCRIPTION": "Eval Leash Blue",
+	"LONG_DESCRIPTION": "Eval Leash Blue Bulk",
+	"US_LIST_PRICE": "10",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 51,
+	"RANGE_END": 150
+}, {
+	"PART_NUMBER": "ACC-102-500-E",
+	"DESCRIPTION": "Eval Leash Blue",
+	"LONG_DESCRIPTION": "Eval Leash Blue Bulk",
+	"US_LIST_PRICE": "5",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 151,
+	"RANGE_END": 500
+}, {
+	"PART_NUMBER": "ACC-102-ALL-E",
+	"DESCRIPTION": "Eval Leash Blue",
+	"LONG_DESCRIPTION": "Eval Leash Blue Bulk",
+	"US_LIST_PRICE": "1",
+	"DISCOUNT_CAT": "B",
+	"RANGE_START": 501,
+	"RANGE_END": 9999999
+}
+];

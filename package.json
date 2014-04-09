@@ -1,0 +1,10 @@
+{
+  "name": "BOM App",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Bill of materials builder. Features product bundles.",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -p 9000"
+  }
+}
