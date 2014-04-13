@@ -1,103 +1,13 @@
 var data_bundles = [
   {
     "PART_NUMBER":"PUP0001"
-	,"required":["LIC-PUP0001"]
-	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE","MOD-LOVE-WATER"]
+	,"required":["LIC-PUP0001","MOD-TAIL-WAGGY"]
+	,"optional":["MOD-LOVE-FETCH","MOD-LOVE-FRISBEE","MOD-LOVE-WATER"]
   },
   {
     "PART_NUMBER":"PUP0002"
 	,"required":["LIC-PUP0002"]
 	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE"]
-  },
-  {
-    "PART_NUMBER":"PUP0003"
-	,"required":["LIC-PUP0003"]
-	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-WATER"]
-  },
-  {
-    "PART_NUMBER":"MOD-TAIL-WAGGY"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"MOD-LOVE-FETCH"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"MOD-LOVE-FRISBEE"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"MOD-LOVE-WATER"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-5"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-50"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-150"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-500"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-ALL"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-5"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-50"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-150"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-500"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-ALL"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"LIC-PUP0001-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"LIC-PUP0002-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"LIC-PUP0003-E"
-	,"required":[]
-	,"optional":[]
   },
   {
     "PART_NUMBER":"PUP0001-E"
@@ -113,75 +23,5 @@ var data_bundles = [
     "PART_NUMBER":"PUP0003-E"
 	,"required":["LIC-PUP0003-E"]
 	,"optional":["MOD-TAIL-WAGGY-E","MOD-LOVE-FETCH-E","MOD-LOVE-FRISBEE-E","MOD-LOVE-WATER-E"]
-  },
-  {
-    "PART_NUMBER":"MOD-TAIL-WAGGY-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"MOD-LOVE-FETCH-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"MOD-LOVE-FRISBEE-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"MOD-LOVE-WATER-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-5-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-50-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-150-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-500-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-101-ALL-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-5-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-50-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-150-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-500-E"
-	,"required":[]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"ACC-102-ALL-E"
-	,"required":[]
-	,"optional":[]
   }
   ];

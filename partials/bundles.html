@@ -1,20 +1,19 @@
 <div id="BundlesController" ng-controller="BundlesController">
 
-<h1>Item Bundles</h1>
 <div class="row">
+<h1>
+	<div class="col-md-9">Item Bundles</div>
 	<div class="col-md-3">
 		<form role="form">
-			<input type="text" class="form-control" ng-model="itemFilter" placeholder="Search..." title="Search to filter on anything in a SKU."/>
+			<input id="filterInput" type="text" class="form-control"
+				 ng-model="itemFilter" placeholder="Bundles filter..." 
+				 data-toggle="tooltip" data-placement="top" 
+				 title="Filter the table for any part of text in the item"/>
 		</form>
 	</div>
+</h1>
 </div>
 
-<!--
-<div class="col-md-3 bundle" ng-repeat="item in bundles | filter: itemFilter">
-	<a href="/#/item/{{item.PART_NUMBER}}">{{item.PART_NUMBER}}</a>
-</div>
-
--->
 <div class="row">
 <table id="item-list-table" class="table table-striped table-bordered table-hover">
 	<thead>
@@ -40,3 +39,4 @@
 </div>
 
 </div>
+
