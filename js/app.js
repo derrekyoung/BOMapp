@@ -9,6 +9,10 @@ angular.module('bomApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
 	$routeProvider.
+		when("/bundles", {
+			templateUrl: "partials/bundles.html", 
+			controller: "BundlesController"
+		}).
 		when("/item-list", {
 			templateUrl: "partials/item-list.html", 
 			controller: "skuListController"
@@ -22,6 +26,6 @@ config(['$routeProvider', function($routeProvider) {
 			controller: "cartController"
 		}).
 		otherwise({
-			redirectTo: '/item-list'
+			redirectTo: '/bundles'
 		});
 }]);
