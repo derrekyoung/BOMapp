@@ -38,6 +38,23 @@ angular.module('bomApp.controllers', []).
 			}
 		}
 		
+		
+		$scope.toggleAll = function() {
+			console.log('toggleAll');
+			if ($scope.selectedAll) {
+	            $scope.selectedAll = true;
+	        } else {
+	            $scope.selectedAll = false;
+	        }
+			$scope.item.Selected = $scope.selectedAll;
+	        angular.forEach($scope.item.required, function (item) {
+	            item.Selected = $scope.selectedAll;
+	        });
+	        angular.forEach($scope.item.optional, function (item) {
+	            item.Selected = $scope.selectedAll;
+	        });
+		}
+		
 		//console.log('$scope.item',$scope.item);
 		$("[data-toggle='tooltip']").tooltip();
 	}).

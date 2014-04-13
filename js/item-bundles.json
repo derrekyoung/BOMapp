@@ -10,6 +10,11 @@ var data_bundles = [
 	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE"]
   },
   {
+    "PART_NUMBER":"PUP0003"
+	,"required":["LIC-PUP0003"]
+	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE","MOD-LOVE-WATER"]
+  },
+  {
     "PART_NUMBER":"PUP0001-E"
 	,"required":["LIC-PUP0001-E"]
 	,"optional":["MOD-TAIL-WAGGY-E","MOD-LOVE-FETCH-E","MOD-LOVE-FRISBEE-E","MOD-LOVE-WATER-E"]
