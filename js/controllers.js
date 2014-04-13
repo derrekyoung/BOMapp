@@ -38,22 +38,12 @@ angular.module('bomApp.controllers', []).
 			}
 		}
 		
-		
-		$scope.toggleAll = function() {
-			console.log('toggleAll');
-			if ($scope.selectedAll) {
-	            $scope.selectedAll = true;
-	        } else {
-	            $scope.selectedAll = false;
-	        }
-			$scope.item.Selected = $scope.selectedAll;
-	        angular.forEach($scope.item.required, function (item) {
-	            item.Selected = $scope.selectedAll;
-	        });
-	        angular.forEach($scope.item.optional, function (item) {
-	            item.Selected = $scope.selectedAll;
-	        });
-		}
+		// This makes the checkboxes checked but doesn't tie to the object model
+		$('.checkall').on('click', function ($event, obj) {
+	        $(this).closest('fieldset')
+				   .find(':checkbox')
+				   .prop('checked', this.checked);
+	    });
 		
 		//console.log('$scope.item',$scope.item);
 		$("[data-toggle='tooltip']").tooltip();
