@@ -1,19 +1,4 @@
-var data_rules = [
-  {
-    "PART_NUMBER":"LIC-PUP0001"
-	,"required":["PUP0001"]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"LIC-PUP0002"
-	,"required":["PUP0002"]
-	,"optional":[]
-  },
-  {
-    "PART_NUMBER":"LIC-PUP0003"
-	,"required":["PUP0003"]
-	,"optional":[]
-  },
+var data_bundles = [
   {
     "PART_NUMBER":"PUP0001"
 	,"required":["LIC-PUP0001"]
@@ -22,31 +7,31 @@ var data_rules = [
   {
     "PART_NUMBER":"PUP0002"
 	,"required":["LIC-PUP0002"]
-	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE","MOD-LOVE-WATER"]
+	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE"]
   },
   {
     "PART_NUMBER":"PUP0003"
 	,"required":["LIC-PUP0003"]
-	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-FRISBEE","MOD-LOVE-WATER"]
+	,"optional":["MOD-TAIL-WAGGY","MOD-LOVE-FETCH","MOD-LOVE-WATER"]
   },
   {
     "PART_NUMBER":"MOD-TAIL-WAGGY"
-	,"required":["PUP0001","PUP0002","PUP0003"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"MOD-LOVE-FETCH"
-	,"required":["PUP0001","PUP0002","PUP0003"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"MOD-LOVE-FRISBEE"
-	,"required":["PUP0001","PUP0002","PUP0003"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"MOD-LOVE-WATER"
-	,"required":["PUP0001","PUP0002","PUP0003"]
+	,"required":[]
 	,"optional":[]
   },
   {
@@ -101,17 +86,17 @@ var data_rules = [
   },
   {
     "PART_NUMBER":"LIC-PUP0001-E"
-	,"required":["PUP0001-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"LIC-PUP0002-E"
-	,"required":["PUP0002-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"LIC-PUP0003-E"
-	,"required":["PUP0003-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
@@ -131,22 +116,22 @@ var data_rules = [
   },
   {
     "PART_NUMBER":"MOD-TAIL-WAGGY-E"
-	,"required":["PUP0001-E","PUP0002-E","PUP0003-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"MOD-LOVE-FETCH-E"
-	,"required":["PUP0001-E","PUP0002-E","PUP0003-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"MOD-LOVE-FRISBEE-E"
-	,"required":["PUP0001-E","PUP0002-E","PUP0003-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
     "PART_NUMBER":"MOD-LOVE-WATER-E"
-	,"required":["PUP0001-E","PUP0002-E","PUP0003-E"]
+	,"required":[]
 	,"optional":[]
   },
   {
