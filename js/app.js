@@ -26,6 +26,6 @@ config(['$routeProvider', function($routeProvider) {
 			controller: "cartController"
 		}).
 		otherwise({
-			redirectTo: '/item-list'
+			redirectTo: '/bundles'
 		});
 }]);
